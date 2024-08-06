@@ -7,4 +7,5 @@
     <string name="percentage_hint">Percentual de Comissão</string>
     <string name="totalSale_hint">Total de Vendas</string>
     <string name="titleExe607">Exercício 607</string>
+    <string name="btn_generate_numbers">Gerar Número</string>
 </resources>

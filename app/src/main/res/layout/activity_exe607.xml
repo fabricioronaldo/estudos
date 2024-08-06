@@ -21,61 +21,36 @@
          />
 
     <TextView
+        style="@style/TextView"
         android:id="@+id/txt_numbers"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_number"
         tools:text="Numeros Gerados" />
 
-    <Button
-        android:id="@+id/btn_close607"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="@string/btnFechar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        />
+
 
     <Button
+        style="@style/ButtonClose"
         android:id="@+id/btn_generate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
         android:text="@string/btn_generate_numbers"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_numbers" />
+         />
 
 
 
     <TextView
+        style="@style/TextView"
         android:id="@+id/txt_quantNegativo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_generate"
         tools:text="Quantidade de números negativos" />
 
     <TextView
+        style="@style/TextView"
         android:id="@+id/txt_quantSumPositive"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_quantNegativo"
         tools:text="soma dos números positivos" />
+
+    <Button
+        android:id="@+id/btn_close607"
+        style="@style/ButtonClose"
+
+        android:text="@string/btnFechar"
+
+        />
 
 </LinearLayout>
