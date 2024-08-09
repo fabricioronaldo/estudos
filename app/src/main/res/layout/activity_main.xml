@@ -8,23 +8,29 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-   <LinearLayout
-       android:id="@+id/btn_606"
-       android:background="#ccc"
-       android:padding="10dp"
-       android:orientation="vertical"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content">
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/rv_main"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       tools:listitem="@layout/main_item"/>
 
-   <ImageView
-       android:src="@drawable/baseline_trending_up_24"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"/>
+<!--   <LinearLayout-->
+<!--       android:id="@+id/btn_606"-->
+<!--       android:background="#ccc"-->
+<!--       android:padding="10dp"-->
+<!--       android:orientation="vertical"-->
+<!--       android:layout_width="wrap_content"-->
+<!--       android:layout_height="wrap_content">-->
 
-   <TextView
-      android:text="@string/label_exe606"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"/>
+<!--   <ImageView-->
+<!--       android:src="@drawable/baseline_trending_up_24"-->
+<!--       android:layout_width="wrap_content"-->
+<!--       android:layout_height="wrap_content"/>-->
 
-   </LinearLayout>
+<!--   <TextView-->
+<!--      android:text="@string/label_exe606"-->
+<!--       android:layout_width="wrap_content"-->
+<!--       android:layout_height="wrap_content"/>-->
+
+<!--   </LinearLayout>-->
 </LinearLayout>
