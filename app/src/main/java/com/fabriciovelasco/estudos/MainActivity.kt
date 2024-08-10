@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val mainItems = mutableListOf<MainItem>()
+
         val adapter = MainAdapter()
         rvMain = findViewById(R.id.rv_main)
         rvMain.adapter = adapter
