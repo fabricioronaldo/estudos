@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Estudos</string>
     <string name="label_exe606">606</string>
+    <string name="label_exe607">607</string>
     <string name="title606">Exercício 606</string>
     <string name="btnFechar">Fechar</string>
     <string name="vendor_hint">Nome do Vendedor</string>
